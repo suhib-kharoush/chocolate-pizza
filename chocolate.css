@@ -1,6 +1,6 @@
 * {
- background-color: rgb(207, 202, 202);
- font-size: 20px;
+ /* background-color: rgb(207, 202, 202); */
+ /* font-size: 20px; */
 }
 
 header img#logo {
@@ -71,7 +71,8 @@ main h5{
   display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 465px;
+    height: 500px;
+    width:800px;
     padding-top: 30px;
 }
 
@@ -95,15 +96,44 @@ p.three {
     margin-bottom: 0;
 }
 
+ 
+#allList {
+    background: url("images/list-bg.png") no-repeat;
+ /* position: relative; */
+ width: 100%;
+ display: inline-block;
+ width: 60%;
+ margin-left: 300px;
+}
+
+#firstList {
+    width:fit-content;
+    float: left;
+    padding-left: 150px;
+    list-style: none;
+    text-align:left; 
+}
+
+#secondList {
+
+    float: right;
+    width:fit-content;
+    padding-right: 150px;
+    list-style: none;
+    text-align: left; }
 
 
 
 ul div {
     /* background: url("images/list-bg.png") no-repeat; */
     padding-left: 100px;
+    height:fit-content;
     overflow:hidden;
-
 }
+    /* /* display: block; */
+    /* margin-left:auto ;
+    margin-right: auto;  */
+
 
 
 #checkboxes{ 
@@ -111,9 +141,11 @@ ul div {
     list-style:none;
     padding: 20px;
     margin: 20px;
-    background-image:url("images/list-bg.png");
+}
+    /* background:transparent; */
+    /* background :url("images/list-bg.png") no-repeat; */
 
-    }
+
 
 
     img#vanessa {
@@ -130,16 +162,18 @@ float:right;
     display: block;
     width: 50%;
     padding-right: 450px;
-    /* margin: 76px; */
-
+    margin: 0;
 }
+
+
 
 footer img {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin-right: auto; 
 }
+
+
 
 footer p {
     padding: 0;
@@ -147,3 +181,4 @@ footer p {
     margin: 0%;
     margin-top: 5px;
 }
+
