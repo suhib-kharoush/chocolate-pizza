@@ -1,7 +1,7 @@
-* {
+/* * { */
  /* background-color: rgb(207, 202, 202); */
  /* font-size: 20px; */
-}
+/* } */
 
 header img#logo {
 
@@ -51,6 +51,16 @@ nav {
 
 main h5{
     font-size: .4in;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    padding-left: 100px;
+}
+
+main h6{
+    font-size: 9px;
     width: 70%;
     margin: 0;
     padding: 0;
@@ -118,7 +128,7 @@ p.three {
 
     float: right;
     width:fit-content;
-    padding-right: 150px;
+    /* padding-right: 150px; */
     list-style: none;
     text-align: left; }
 
@@ -182,3 +192,6 @@ footer p {
     margin-top: 5px;
 }
 
+#butt{background-color: brown;
+    height: 40px;
+    width: 130px;}
